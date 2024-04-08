@@ -10,7 +10,7 @@ jobs:
         uses: hiddenlayerai/hiddenlayer-model-scan-github-action@v0.1.1
         with:  
         
-          model_path: models/official/mnist/mnist.py
+          model_path: pytorchmodel.py
         env:
           HL_CLIENT_ID: ${{ secrets.HL_CLIENT_ID }}
           HL_CLIENT_SECRET: ${{ secrets.HL_CLIENT_SECRET }}
